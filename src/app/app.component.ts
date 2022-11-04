@@ -8,7 +8,9 @@ import { Component } from "@angular/core";
 export class AppComponent {
   title = 'Helloworld';
   imgUrl = '../assets/Bridgelabz Logo.jpeg';
-  url = "https://www.bridgelabz.com"
+  url = "https://www.bridgelabz.com";
+
+  userName: string ="";
 
   ngOnInit(): void {
     this.title = "Hello From Bridgelabz"
